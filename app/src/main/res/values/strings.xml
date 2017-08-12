@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My BookListing App</string>
+    <string name="header_listing">AUTHOR</string>
+    <string name="header_book_title">book title</string>
+    <string name="header_date">date of publication</string>
+    <string name="sweety">Donald trump</string>
+    <string name="pre">Preview</string>
+    <string name="link">Web</string>
+    <string name="sweet_love">sweet love</string>
+    <string name="anita_baker">Anita</string>
+    <string name="noBookFound">No Data Found</string>
+    <string name="query_hint">Type search terms here</string>
+    <string name="error_no_internet">error</string>
+    <string name="internet_unavailable">Internet unavailable</string>
+</resources>

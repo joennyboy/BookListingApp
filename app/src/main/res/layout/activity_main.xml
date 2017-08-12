@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/editing_margin"
+                tools:context="com.example.android.mybooklisingapp.MainActivity">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_toLeftOf="@+id/button1"
+        android:hint="@string/query_hint"
+        android:inputType="text"
+        android:paddingLeft="@dimen/edit_margin"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/listView"
+        android:layout_alignRight="@+id/listView"
+        android:layout_alignTop="@+id/editText"
+        android:background="@color/colorPrimary"
+        android:onClick="Show Toast"
+        android:paddingRight="@dimen/edit_margin"
+        android:src="@drawable/ic_search" />
+
+    <TextView
+        android:id="@+id/text_data"
+        style="@style/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/noBookFound"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text_data"/>
+
+
+
+</RelativeLayout>
+
+
